@@ -4,3 +4,6 @@
 2. Adjust handles to the desired crop.
 3. (optional) Press <kbd>a</kbd> to rotate through locked aspect ratios.
 4. Press <kbd>SPACE</kbd> to toggle the `jpegtran` command display.
+
+The entire application runs offline, inside your browser. The image is
+not transmitted anywhere.
