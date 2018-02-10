@@ -1,5 +1,7 @@
 # jpegtran crop helper
 
+Use it online: <http://nullprogram.com/jpegtran-crop-helper/>
+
 1. Drag and drop the image to be cropped into the browser.
 2. Adjust handles to the desired crop.
 3. (optional) Press <kbd>a</kbd> to rotate through locked aspect ratios.
