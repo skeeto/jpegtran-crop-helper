@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
             Math.round(image.width * (crop.x1 - crop.x0)) + 'x' +
             Math.round(image.height * (crop.y1 - crop.y0)) + '+' +
             Math.round(image.width * crop.x0) + '+' +
-            Math.round(image.width * crop.y0) +
+            Math.round(image.height * crop.y0) +
             ' -outfile output.jpg ' + filename;
 
         if (aspectChanged) {
