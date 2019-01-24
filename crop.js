@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ctx.strokeRect(h.x, h.y, h.w, h.h);
         }
 
-        command.textContent = 'jpegtran -crop ' +
+        command.textContent = 'jpegtran -copy all -crop ' +
             Math.round(image.width * (crop.x1 - crop.x0)) + 'x' +
             Math.round(image.height * (crop.y1 - crop.y0)) + '+' +
             Math.round(image.width * crop.x0) + '+' +
